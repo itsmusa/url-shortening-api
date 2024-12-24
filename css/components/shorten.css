@@ -1,0 +1,28 @@
+.shorten__input {
+    background: url('../../images/bg-shorten-mobile.svg') var(--very-dark-violet);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 7rem -5rem;
+    padding-block: 1.5rem;
+    padding-inline: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.shorten__input input {
+    width: 100%;
+    padding-block: 0.75rem;
+    padding-inline: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.shorten__input input::placeholder {
+    color: var(--grayish-violet);
+}
+
+.shorten__input button {
+    width: 100%;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}

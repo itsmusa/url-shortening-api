@@ -1,0 +1,73 @@
+.header {
+    padding-block: 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu {
+    position: absolute;
+    /* top: 4.5rem; */
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 3rem);
+    background: var(--dark-violet);
+    border-radius: 1rem;
+    padding-block: 2rem;
+    padding-inline: 2rem;
+    color: var(--white);
+
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    top: -100%;
+}
+
+.nav__menu.show {
+    opacity: 1;
+    pointer-events: all;
+    top: 4.5rem;
+}
+
+.nav__menu .links::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0.063rem;
+    background: var(--grayish-violet);
+    margin-block: 1.5rem;
+}
+
+.nav__menu .links a {
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+
+.nav__menu .links a:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.nav__menu .user .button:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.menuBtn {
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.menuBtn > span {
+    display: block;
+    width: 1.5rem;
+    height: 0.188rem;
+    background: var(--grayish-violet);
+
+    &:not(:last-child) {
+        margin-bottom: 0.313rem;
+    }
+}

@@ -1,0 +1,15 @@
+.button {
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    padding-block: 0.75rem;
+}
+
+.button.cyan {
+    background: var(--cyan);
+    color: var(--white);
+}
+
+.button.round {
+    border-radius: 10rem;
+}

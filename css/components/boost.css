@@ -1,0 +1,19 @@
+.boost {
+    background: url('../../images/bg-boost-mobile.svg') var(--dark-violet);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-block: 3rem;
+}
+
+.boost h2 {
+    font-size: var(--fs-500);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.boost .button {
+    width: 200px;
+    margin: 0 auto;
+}

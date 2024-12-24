@@ -1,0 +1,42 @@
+.footer {
+    color: var(--white);
+    background: var(--very-dark-violet);
+    padding-block: 5rem 3rem;
+}
+
+.footer .wrapper {
+    display: grid;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.footer h3 {
+    color: var(--white);
+    margin-bottom: 1.5rem;
+}
+
+ul li:has(a) {
+    margin-bottom: 0.25rem;
+}
+
+.footer__logo {
+    text-align: center;
+}
+
+.footer__features {
+    text-align: center;
+}
+
+.footer__resources {
+    text-align: center;
+}
+
+.footer__company {
+    text-align: center;
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 1.125rem;
+}

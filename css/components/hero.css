@@ -1,0 +1,28 @@
+.hero {
+    display: grid;
+    row-gap: 2rem;
+    margin-block: 0 2rem;
+}
+
+.hero img {
+}
+
+.hero__text {
+    display: grid;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: var(--fs-600);
+}
+
+.hero p {
+    max-width: 45ch;
+    margin-bottom: 1.5rem;
+    justify-self: center;
+}
+
+.hero .button {
+    justify-self: center;
+    width: 200px;
+}

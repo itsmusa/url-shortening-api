@@ -1,0 +1,67 @@
+:root {
+    --cyan: hsl(180, 66%, 49%);
+    --dark-violet: hsl(257, 27%, 26%);
+    --red: hsl(0, 87%, 67%);
+    --gray: hsl(0, 0%, 75%);
+    --grayish-violet: hsl(257, 7%, 63%);
+    --very-dark-blue: hsl(255, 11%, 22%);
+    --very-dark-violet: hsl(260, 8%, 14%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, button, input, label {
+    line-height: 1.1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img, picture {
+    max-width: 100%;
+    display: block;
+}
+
+input, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    color: var(--grayish-violet);
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--very-dark-blue);
+}
